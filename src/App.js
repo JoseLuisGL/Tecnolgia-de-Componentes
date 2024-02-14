@@ -9,9 +9,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Nuevo Usuario</h1>
-        <CustomInput label={"Usuario"} disabled={false} />
-        <CustomInput label={"Correo"} disabled={false}/>
-        <CustomInput label={"Contraseña"} disabled={false}/>
+        <CustomInput label={"Usuario"} disabled={false} type={"text"} />
+        <CustomInput label={"Correo"} disabled={false} type={"email"}/>
+        <CustomInput label={"Contraseña"} disabled={false} type={"password"}/>
         <br></br>
         <div>
         <CustomButton text={"Cancelar"} disabled={true}/> <CustomButton text={"Aceptar"} disabled={false}/>

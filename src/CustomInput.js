@@ -1,8 +1,8 @@
-function CustomInput({label, disabled}) {
+function CustomInput({label, disabled, type}) {
     return (
       <>
         <label htmlFor="">{label}</label>
-        <input type="text" disabled={disabled} />
+        <input type={type} disabled={disabled} />
       </>
     );
   }
